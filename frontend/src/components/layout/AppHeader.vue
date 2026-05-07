@@ -128,10 +128,10 @@
 
                 <a
                   v-if="authStore.isAdmin"
-                  href="https://github.com/Wei-Shaw/sub2api"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  @click="closeDropdown"
+                  @click.prevent="closeDropdown"
                   class="dropdown-item"
                 >
                   <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
